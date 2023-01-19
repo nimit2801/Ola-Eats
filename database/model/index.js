@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import { restraunt } from '../model/restraunt.js';
+import { restaurant } from '../model/restaurant.js';
 
 // Models from one file
-export const Restraunt = mongoose.model('Restraunt', restraunt);
+export const Restaurant = mongoose.model('restaurant', restaurant);
